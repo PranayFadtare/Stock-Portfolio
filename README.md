@@ -82,7 +82,16 @@ npm start
 ---
 
 ## 🌟 Screenshots
-> _Add screenshots or GIFs here to showcase your app's UI and features._
+![image](https://github.com/user-attachments/assets/ad50fe40-82d2-45ce-a820-6b9d440153b9)
+![image](https://github.com/user-attachments/assets/1f9156b9-a139-45ef-91e0-cab267bc572c)
+![image](https://github.com/user-attachments/assets/9dde5c0b-0fb0-4ed2-9c8e-51bd534465cc)
+![image](https://github.com/user-attachments/assets/3fb5c5e9-dd63-4697-a22b-fea9ef80e53a)
+![image](https://github.com/user-attachments/assets/4099f52f-f2a5-461d-b44b-139b004d97ea)
+![image](https://github.com/user-attachments/assets/61b7f82a-7523-4d88-b08d-8b143b0b8fc3)
+![image](https://github.com/user-attachments/assets/b165d718-26e9-4862-a055-17efa5f371be)
+
+![image](https://github.com/user-attachments/assets/2a200c41-6282-495c-aa44-139cd5170cd3)
+
 
 ---
 
