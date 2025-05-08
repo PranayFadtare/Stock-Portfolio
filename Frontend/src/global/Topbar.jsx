@@ -39,7 +39,7 @@ const Topbar = ()  => {
   
 
     useEffect(()=>{
-      const url = "http://localhost:8080/user/".concat(user.id);;
+      const url = `${process.env.REACT_APP_API_URL}/user/`.concat(user.id);
       fetch(url)
        .then((res)=>res.json())
        .then((data)=>{

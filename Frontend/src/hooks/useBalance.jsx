@@ -11,7 +11,7 @@
 //         // setIsLoading(true)
 //         setError(null)
 
-//         const url = "http://localhost:8080/user/".concat(user.id);
+//         const url = `${process.env.REACT_APP_API_URL}/user/`.concat(user.id);
 //         console.log(url);
 //         const response = await fetch (url, {
 //             method: 'GET',

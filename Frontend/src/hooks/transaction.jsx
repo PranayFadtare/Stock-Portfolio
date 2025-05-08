@@ -9,7 +9,7 @@ export const useTransaction = () =>{
         setError(null)
         
 
-        const url = `http://localhost:8080/trade/${user.id}`;
+        const url = `${process.env.REACT_APP_API_URL}/trade/${user.id}`;
         const response = await fetch (url, {
             method: 'POST',
             headers:{'Content-Type':'application/json'},

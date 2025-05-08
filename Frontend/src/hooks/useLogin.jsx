@@ -11,7 +11,7 @@ export const useLogin = () =>{
         setError(null)
         
 
-        const url = "http://localhost:8080/user/login/";
+        const url = `${process.env.REACT_APP_API_URL}/user/login/`;
         const response = await fetch (url, {
             method: 'POST',
             headers:{'Content-Type':'application/json'},

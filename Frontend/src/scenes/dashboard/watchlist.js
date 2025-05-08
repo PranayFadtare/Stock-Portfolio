@@ -28,7 +28,7 @@ const Watchlist = () => {
   // const [rows: GridRowsProp, setRows] = React.useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
-  const url = "http://localhost:8080/temp/".concat(user.id);
+  const url = `${process.env.REACT_APP_API_URL}/temp/`.concat(user.id);
   // console.log(url);
 
   const fetchData = async () => {
@@ -251,7 +251,7 @@ const Watchlist = () => {
             );
 
           async function deleteRow() {
-            await fetch("http://localhost:8080/temp/".concat(thisRow.ids), {
+            await fetch(`${process.env.REACT_APP_API_URL}/temp/`.concat(thisRow.ids), {
               method: "DELETE",
             });
             for (var key in rows) {

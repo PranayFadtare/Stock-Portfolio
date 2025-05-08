@@ -34,7 +34,7 @@ const Dashboard = () => {
 //       name: props.description,
 //     };
 
-//     const url = "http://localhost:8080/temp/";
+//     const url = `${process.env.REACT_APP_API_URL}/temp/`;
 
 //     await axios
 //       .post(url, {
@@ -143,7 +143,7 @@ const Dashboard = () => {
                   name: thisRow.description,
                 };
             
-                const url = "http://localhost:8080/temp/";
+                const url = `${process.env.REACT_APP_API_URL}/temp/`;
             
                 await axios
                   .post(url, {

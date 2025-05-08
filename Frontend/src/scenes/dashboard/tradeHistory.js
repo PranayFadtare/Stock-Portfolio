@@ -38,7 +38,7 @@ const Portfolio = () => {
   // const [rows: GridRowsProp, setRows] = React.useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
-  const url = "http://localhost:8080/trade/".concat(user.id);
+  const url = `${process.env.REACT_APP_API_URL}/trade/`.concat(user.id);
   // console.log(url);
 
   const fetchData = async () => {

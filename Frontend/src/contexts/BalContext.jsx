@@ -27,7 +27,7 @@
 //     // },[])
 //     useEffect(()=>{
 //         const getUser  = JSON.parse(localStorage.getItem("user"));
-//         const url = "http://localhost:8080/user/".concat(getUser.id);
+//         const url = `${process.env.REACT_APP_API_URL}/user/`.concat(getUser.id);
 //         console.log(url);
 //         fetch(url)
 //         .then((res)=>{res.json()})
