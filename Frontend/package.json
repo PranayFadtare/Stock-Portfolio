@@ -5,8 +5,8 @@
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
-    "@mui/material": "^5.14.0",
     "@mui/icons-material": "^5.14.0",
+    "@mui/material": "^5.14.0",
     "@mui/x-data-grid": "^5.17.12",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -24,6 +24,7 @@
     "react-ts-tradingview-widgets": "^1.0.12",
     "recharts": "^2.1.9",
     "sass": "^1.56.1",
+    "serve": "^14.2.4",
     "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4",
     "yup": "^0.32.11"
