@@ -1,0 +1,8 @@
+Flask==3.0.3
+python-dotenv==1.0.1
+requests==2.32.3
+langchain==0.3.27
+langchain-openai==0.3.28
+yfinance==0.2.65
+openai==1.97.1
+gunicorn==22.0.0
