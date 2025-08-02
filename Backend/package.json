@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/core": "^0.3.66",
+    "axios": "^1.11.0",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.6.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "langchain": "^0.3.30",
+    "mongoose": "^6.8.0",
+    "openai": "^5.10.2",
+    "socket.io": "^4.8.1",
+    "validator": "^13.7.0"
+  }
+}
